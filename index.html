@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <title>Coup Offline</title>
+  <meta name="description" content="Coup para jogar presencialmente: cada jogador usa o próprio celular como baralho e carteira. 100% offline.">
+  <meta name="theme-color" content="#3a1c71">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Coup">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" href="icons/favicon.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="backdrop" aria-hidden="true"></div>
+  <div id="app"></div>
+  <noscript>Este jogo precisa de JavaScript ativado.</noscript>
+
+  <!-- Scripts classicos (sem modulos): funcionam ate abrindo o index.html direto do disco. -->
+  <script src="js/catalog.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/flows.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

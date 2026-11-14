@@ -1,0 +1,16 @@
+{
+  "name": "Coup Offline",
+  "short_name": "Coup",
+  "description": "Coup para jogar presencialmente, sem baralho físico. 100% offline.",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1e0f45",
+  "theme_color": "#3a1c71",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
